@@ -1,0 +1,31 @@
+{
+  "name": "demo-template-shared-pure",
+  "private": false,
+  "version": "0.1.0",
+  "keywords": [
+    "SmartLink JS",
+    "micro frontends",
+    "SmartLink Create App",
+    "template"
+  ],
+  "description": "The base shared template for SmartLink Create App.",
+  "repository": {
+    "type": "",
+    "url": "",
+    "directory": ""
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "scripts": {
+    "release": "npm publish --tag latest --access public"
+  }
+}
